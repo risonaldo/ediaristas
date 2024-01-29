@@ -25,4 +25,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //Rotas para trabalhar com o serviços
 
 
-Route::get('/servicos', [ServicoController::class, 'index'])->name('servicoe.index');
+Route::get('/servicos', [ServicoController::class, 'index'])->name('servicos.index');

@@ -296,7 +296,7 @@ return [
             'submenu' => [
                 [
                     'text' => 'Listar Serviços',
-                    'url'  => '#',
+                    'route'  => 'servicos.index',
                 ],
                 [
                     'text' => 'Cadastrar Serviços',
