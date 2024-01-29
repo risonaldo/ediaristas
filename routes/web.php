@@ -26,3 +26,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::get('/servicos', [ServicoController::class, 'index'])->name('servicos.index');
+Route::get('/servicos', [ServicoController::class, 'cadastrar'])->name('servicos.cadastrar');

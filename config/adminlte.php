@@ -292,15 +292,17 @@ return [
     'menu' => [
         [
             'text'    => 'Cadastro de Serviços',
-            'icon'    => 'fas fa-fw fa-share',
+            'icon'    => 'fas fa-fw fa-broom',
             'submenu' => [
                 [
                     'text' => 'Listar Serviços',
                     'route'  => 'servicos.index',
+                    'icon' => 'fas fa-fw fa-list'
                 ],
                 [
                     'text' => 'Cadastrar Serviços',
                     'url'  => '#',
+                    'icon' => 'fas fa-fw fa-file'
                 ],
             ],
         ],
