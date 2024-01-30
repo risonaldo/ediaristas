@@ -11,9 +11,5 @@ class ServicoController extends Controller
         //extension laravel go to view
         return view('servicos.index');
     }
-    public function cadastrar()
-    {
-        //extension laravel go to view
-        return view('servicos.cadastrar');
-    }
+    
 }
